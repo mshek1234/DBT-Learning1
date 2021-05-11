@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: A copy of sample data
+    database: demo_db
+    tables:
+      - name: customers
+        description: Customer raw data
+        columns:
+          - name: id
+            description: Holds customer ID
+            tests:
+              - unique
+      - name: orders
+  - name: stripe  
+    database: demo_db
+    tables:
+      - name: payment
