@@ -11,7 +11,7 @@ sources:
           - name: id
             description: Holds customer ID
             tests:
-              - unique
+              - unique 
       - name: orders
   - name: stripe  
     database: demo_db

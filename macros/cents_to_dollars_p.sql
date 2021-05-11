@@ -2,4 +2,4 @@
 
  round({{ column_value }}/100,{{ round_value }})
 
-{% endmacro %}
+{% endmacro %} 

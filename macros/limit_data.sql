@@ -2,4 +2,4 @@
 
  where {{ column_value }} >= dateadd('day', - {{ days_to_limit }}, current_timestamp)
 
-{% endmacro %}
+{% endmacro %} 

@@ -10,5 +10,5 @@ with payments as (
 
     from {{source('stripe','payment')}}
 )
-Select * from payments
+Select * from payments 
 

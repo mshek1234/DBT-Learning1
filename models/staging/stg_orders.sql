@@ -9,5 +9,5 @@ with orders as (
     from {{source('jaffle_shop','orders')}}
 
 )
-
+ 
 select *from orders

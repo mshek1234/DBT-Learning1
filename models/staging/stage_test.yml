@@ -8,7 +8,7 @@ models:
             - unique
             - not_null
     - name: stg_orders
-      columns:
+      columns: 
         - name: status
           tests:
             - accepted_values:
